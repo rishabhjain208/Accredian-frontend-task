@@ -1,0 +1,14 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensures it takes up the full viewport height */
+  }
+  
+  @media (max-width: 768px) {
+    .hero-container {
+      flex-direction: column; /* Stack elements vertically */
+      text-align: center; /* Center align text within the container */
+    }
+  }
+  
